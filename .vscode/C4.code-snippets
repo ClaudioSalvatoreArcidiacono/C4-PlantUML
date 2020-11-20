@@ -59,6 +59,24 @@
 		],
 		"description": "Add Container with Description to C4 diagram"
 	},
+	"C4_Container_Db": {
+        	"scope": "plantuml",
+		"prefix": "Database Container",
+		"body": [
+		    "ContainerDb(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+		    "$0"
+		],
+		"description": "Add Container to C4 diagram"
+        },
+    	"C4_Container_Descr_Db": {
+		"scope": "plantuml",
+		"prefix": "Database Container with Description",
+		"body": [
+		    "ContainerDb(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+		    "$0"
+		],
+		"description": "Add Container with Description to C4 diagram"
+    	},
 	"C4_Container_Boundary": {
 		"scope": "diagram",
 		"prefix": [
